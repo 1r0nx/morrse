@@ -45,42 +45,22 @@ chmod +x morrse.py
 ## ⚙️ Example
 
 ```bash
-morrse enc -s 'this is morse code'
-```
-
-Output:
-
-```bash
+❯ morrse enc -s 'this is morse code'
 - .... .. ... / .. ... / -- --- .-. ... . / -.-. --- -.. .
 ```
 
 ```bash
-morrse dec -s '- .... .. ... / .. ... / -- --- .-. ... . / -.-. --- -.. .'
-```
-
-Output:
-
-```bash
+❯ morrse dec -s '- .... .. ... / .. ... / -- --- .-. ... . / -.-. --- -.. .'
 THIS IS MORSE CODE
 ```
 
 ```bash
-morrse dec -s '- .... .. ... , .. ... , -- --- .-. ... . , -.-. --- -.. .'
-```
-
-Output:
-
-```bash
+❯ morrse dec -s '- .... .. ... , .. ... , -- --- .-. ... . , -.-. --- -.. .'
 THIS IS MORSE CODE
 ```
 
 ```bash
-morrse dec -s '- .... .. ... ; .. ... ; -- --- .-. ... . ; -.-. --- -.. .'
-```
-
-Output:
-
-```bash
+❯ morrse dec -s '- .... .. ... ; .. ... ; -- --- .-. ... . ; -.-. --- -.. .'
 THIS IS MORSE CODE
 ```
 
