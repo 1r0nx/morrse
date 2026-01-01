@@ -1,6 +1,6 @@
 # morrse
 
-**morse is a command line tool** to encode text into morse and decode morse code
+**morrse is a command line tool** to encode text into morse and decode morse code
 
 ---
 
