@@ -65,7 +65,7 @@ def decode(morse):
             if letter in REVERSE_MORSE_DICT:
                 decoded_letters.append(REVERSE_MORSE_DICT[letter])
             else:
-                decoded_letters.append("[-] No morse code was decoded!!!!")
+                print(f"\nno match for \"{letter}\"\n")
 
         decoded_words.append("".join(decoded_letters))
 
@@ -147,9 +147,9 @@ def main():
         sys.exit(1)
 
     if args.mode == "enc":
-        print(encode(args.string))
+        print(f"ENCODED: {encode(args.string)}")
     else:
-        print(decode(args.string))
+        print(f"DECODED: {decode(args.string)}")
 
 
 if __name__ == "__main__":
